@@ -2,6 +2,9 @@
 
 Requires elm to be installed.
 
-To run:
+## To run:
 
-    elm reactor
+1. Open the project directory in a terminal window.
+2. Type `elm reactor`
+3. Click "src"
+4. Click "Emily.elm"
