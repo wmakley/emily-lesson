@@ -88,10 +88,13 @@ view model =
             ]
         , Html.p
             []
-            [ Html.input
+            [ Html.label [ Html.Attributes.for "answer" ] [ Html.text "Answer: " ]
+            , Html.input
                 [ Html.Attributes.type_ "text"
                 , Html.Attributes.value model.answer
                 , Html.Events.onInput ChangeAnswer
+                , Html.Attributes.size 50
+                , Html.Attributes.id "answer"
                 ]
                 []
             ]
