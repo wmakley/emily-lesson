@@ -1,6 +1,6 @@
 # Emily Lesson
 
-Requires elm to be installed.
+Requires elm to be installed and in the PATH.
 
 ## To run:
 
